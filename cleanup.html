@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cleanup Services</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+  <style>
+    body {
+      background-color: #1f1f1f;
+      color: #fce4ec;
+    }
+    .card {
+      background: linear-gradient(to bottom right, #2a2a2a, #1f1f1f);
+      border: 2px solid #ec407a;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 25px rgba(236, 64, 122, 0.4);
+    }
+    .price {
+      color: #ec407a;
+    }
+    .line-through {
+      color: #9e9e9e;
+    }
+    .section-title {
+      background: linear-gradient(to right, #ec407a, #f48fb1);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .service-image {
+      border-radius: 0.75rem;
+      margin-bottom: 1rem;
+    }
+  </style>
+</head>
+<body class="font-sans p-6">
+  <!-- Header with Logo and Title -->
+  <div class="relative max-w-6xl mx-auto flex items-center justify-center mb-10 space-x-4">
+    <img src="/logo.ico" alt="Glow & Feel Logo" class="h-16 w-auto absolute left-0">
+    <!-- Home Icon -->
+    <div class="absolute top-6 right-6">
+      <a href="/index.html" class="text-pink-500 hover:text-pink-300 transition" title="Home">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M3 9.75L12 4l9 5.75M12 4v16m-6 0h12a1 1 0 001-1v-7.5M6 20a1 1 0 01-1-1v-7.5" />
+        </svg>
+      </a>
+    </div>
+  </div>
+
+
+  <div class="max-w-6xl mx-auto">
+    <h2 class="text-3xl font-bold text-center mb-6 section-title">Cleanup Services</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+      <div class="card p-6 rounded-2xl">
+        <h2 class="text-2xl font-semibold mb-2">Skin Brighting Cleanup</h2>
+        <p class="mb-2">VLCC Cleanup</p>
+        <p class="mb-2">Duration: 40 min</p>
+        <p class="price font-bold">Rs. 450 <span class="line-through ml-2">Rs. 900</span> (50% off)</p>
+      </div>
+
+      <div class="card p-6 rounded-2xl">
+        <h2 class="text-2xl font-semibold mb-2">Skin Lightening Cleanup</h2>
+        <p class="mb-2">Duration: 40 min</p>
+        <p class="price font-bold">Rs. 450 <span class="line-through ml-2">Rs. 900</span> (50% off)</p>
+      </div>
+
+      <div class="card p-6 rounded-2xl">
+        <h2 class="text-2xl font-semibold mb-2">Raaga Express Cleanup</h2>
+        <p class="mb-2">Normal to Dry</p>
+        <p class="mb-2">Duration: 40 min</p>
+        <p class="price font-bold">Rs. 470 <span class="line-through ml-2">Rs. 900</span> (47% off)</p>
+      </div>
+
+      <div class="card p-6 rounded-2xl">
+        <h2 class="text-2xl font-semibold mb-2">Raaga Express Cleanup</h2>
+        <p class="mb-2">Normal to Oily</p>
+        <p class="mb-2">Duration: 40 min</p>
+        <p class="price font-bold">Rs. 450 <span class="line-through ml-2">Rs. 900</span> (45% off)</p>
+      </div>
+
+      <div class="card p-6 rounded-2xl">
+        <h2 class="text-2xl font-semibold mb-2">Steam Cleanup</h2>
+        <p class="mb-2">Duration: 5 min</p>
+        <p class="price font-bold">Rs. 100 <span class="line-through ml-2">Rs. 200</span> (45% off)</p>
+      </div>
+          
+    
+  </div>
+</body>
+</html>

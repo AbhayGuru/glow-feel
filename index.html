@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Glow & Feel - Salon Services at Your Doorstep</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-800 font-sans">
+
+  <!-- Header -->
+  <header class="bg-white shadow-md sticky top-0 z-50">
+    <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+      <a href="#" class="text-2xl font-bold text-pink-600">Glow & Feel Beauty</a>
+      <nav class="space-x-6 hidden md:flex">
+        <a href="#services" class="hover:text-pink-600">Services</a>
+        <a href="#testimonials" class="hover:text-pink-600">Testimonials</a>
+        <a href="#contact" class="hover:text-pink-600">Contact</a>
+      </nav>
+      <button class="md:hidden focus:outline-none" id="menu-btn">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2"
+          stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+          <path d="M4 6h16M4 12h16M4 18h16"></path>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Menu -->
+  <div class="hidden md:hidden bg-white shadow-md" id="menu">
+    <nav class="flex flex-col space-y-3 px-6 py-4">
+      <a href="#services" class="hover:text-pink-600">Services</a>
+      <a href="#testimonials" class="hover:text-pink-600">Testimonials</a>
+      <a href="#contact" class="hover:text-pink-600">Contact</a>
+    </nav>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="relative bg-pink-50">
+    <div class="container mx-auto px-6 py-20 flex flex-col md:flex-row items-center">
+      <div class="md:w-1/2 space-y-6">
+        <h1 class="text-4xl md:text-5xl font-extrabold text-pink-700 leading-tight">
+          Premium Salon Services<br /> Delivered to Your Doorstep
+        </h1>
+        <p class="text-lg text-gray-700">
+          Experience professional beauty treatments from the comfort of your home.
+          Book your appointment today and indulge in luxury without stepping out.
+        </p>
+        <a href="#booking" class="inline-block bg-pink-600 text-white px-6 py-3 rounded-md shadow hover:bg-pink-700 transition">
+          Book Now
+        </a>
+      </div>
+      <div class="md:w-1/2 mt-10 md:mt-0">
+        <img src="logo.ico" alt="Salon at home" class="rounded-lg shadow-lg" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="container mx-auto px-6 py-20">
+    <h2 class="text-3xl font-bold text-center text-pink-700 mb-12">Our Services</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10">
+      <div class="text-center p-6 border rounded-lg hover:shadow-lg transition">
+        <a href="/best-selling.html">
+        <img src="/best selling.jpg" alt="bestselling" class="mx-auto mb-4" />
+        <h3 class="font-semibold text-xl mb-2">Best Selling</h3>
+        <!-- <p class="text-gray-600">Expert haircut and styling services delivered right to your home.</p> -->
+        </a>
+      </div>
+      <div class="text-center p-6 border rounded-lg hover:shadow-lg transition">
+        <a href="/partymakeup.html">
+        <img src="/partymakeup.jpg" alt="partymakeup" class="mx-auto mb-4" />
+        <h3 class="font-semibold text-xl mb-2">Party Makeup</h3>
+        <!-- <p class="text-gray-600">Rejuvenate your skin with professional facials customized to your skin type.</p> -->
+        </a>
+      </div>
+      <div class="text-center p-6 border rounded-lg hover:shadow-lg transition">
+        <a href="/hairstyle.html">
+        <img src="/hairstyle.jpg" alt="Haircut" class="mx-auto mb-4" />
+        <h3 class="font-semibold text-xl mb-2">Haircuts & Styling</h3>
+        <!-- <p class="text-gray-600">Expert haircut and styling services delivered right to your home.</p> -->
+        </a>
+      </div>
+      <div class="text-center p-6 border rounded-lg hover:shadow-lg transition">
+        <a href="/facewax.html">
+        <img src="/facewax.jpg" alt="facewax" class="mx-auto mb-4" />
+        <h3 class="font-semibold text-xl mb-2">Face Wax</h3>
+        </a>
+      </div>
+      <div class="text-center p-6 border rounded-lg hover:shadow-lg transition">
+        <a href="/threadwork.html">
+        <img src="/thread work.jpg" alt="thread work" class="mx-auto mb-4" />
+        <h3 class="font-semibold text-xl mb-2">Thread Work</h3>
+        </a>
+      </div>
+      <div class="text-center p-6 border rounded-lg hover:shadow-lg transition">
+        <a href="/pedimedi.html">
+        <img src="/pedmed.jpeg" alt="pedimedi" class="mx-auto mb-4" />
+        <h3 class="font-semibold text-xl mb-2">Pedicure & Manicure</h3>
+        </a>
+      </div>
+      <div class="text-center p-6 border rounded-lg hover:shadow-lg transition">
+        <a href="/scrub.html">
+        <img src="/scrub.jpg" alt="scrub" class="mx-auto mb-4" />
+        <h3 class="font-semibold text-xl mb-2">Scrub</h3>
+        </a>
+      </div>
+      <div class="text-center p-6 border rounded-lg hover:shadow-lg transition">
+        <a href="/bleach.html">
+        <img src="/bleach.webp" alt="bleach" class="mx-auto mb-4" />
+        <h3 class="font-semibold text-xl mb-2">Bleach</h3>
+        </a>
+      </div>
+      <div class="text-center p-6 border rounded-lg hover:shadow-lg transition">
+        <a href="/cleanup.html">
+        <img src="/cleanup.jpg" alt="cleanup" class="mx-auto mb-4" />
+        <h3 class="font-semibold text-xl mb-2">Cleanup</h3>
+        </a>
+      </div>
+      <div class="text-center p-6 border rounded-lg hover:shadow-lg transition">
+        <a href="/o3+facial.html">
+        <img src="/o3-facial.webp" alt="o3+facial" class="mx-auto mb-4" />
+        <h3 class="font-semibold text-xl mb-2">O3+ Facial</h3>
+        </a>
+      </div>
+      <div class="text-center p-6 border rounded-lg hover:shadow-lg transition">
+        <a href="/de-tan.html">
+        <img src="/de-tan.jpeg" alt="de-tan" class="mx-auto mb-4" />
+        <h3 class="font-semibold text-xl mb-2">De-Tan</h3>
+        </a>
+      </div>
+      <div class="text-center p-6 border rounded-lg hover:shadow-lg transition">
+        <a href="/rice-roll.html">
+        <img src="/rice-roll.webp" alt="rice-roll" class="mx-auto mb-4" />
+        <h3 class="font-semibold text-xl mb-2">Rice Roll On</h3>
+        </a>
+      </div>
+      <div class="text-center p-6 border rounded-lg hover:shadow-lg transition">
+        <a href="/facial.html">
+        <img src="/facial.png" alt="Facial" class="mx-auto mb-4" />
+        <h3 class="font-semibold text-xl mb-2">Facial</h3>
+        </a>
+      </div>
+      <div class="text-center p-6 border rounded-lg hover:shadow-lg transition">
+        <a href="/waxing.html">
+        <img src="/waxing.webp" alt="waxing" class="mx-auto mb-4" />
+        <h3 class="font-semibold text-xl mb-2">Waxing</h3>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="bg-pink-50 py-20">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl font-bold text-center text-pink-700 mb-12">What Our Clients Say</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="bg-white rounded-lg p-6 shadow hover:shadow-lg transition">
+          <p class="text-gray-700 italic mb-4">"The home salon experience was fantastic! The beautician was professional, punctual, and made me feel comfortable."</p>
+          <div class="flex items-center">
+            <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Client 1" class="w-12 h-12 rounded-full mr-4" />
+            <div>
+              <p class="font-semibold">Anita Sharma</p>
+              <p class="text-yellow-500">★★★★★</p>
+            </div>
+          </div>
+        </div>
+        <div class="bg-white rounded-lg p-6 shadow hover:shadow-lg transition">
+          <p class="text-gray-700 italic mb-4">"Booking was simple, and the service quality exceeded my expectations. Highly recommend Glow & Feel Beauty!"</p>
+          <div class="flex items-center">
+            <img src="https://randomuser.me/api/portraits/men/45.jpg" alt="Client 2" class="w-12 h-12 rounded-full mr-4" />
+            <div>
+              <p class="font-semibold">Rajesh Kumar</p>
+              <p class="text-yellow-500">★★★★★</p>
+            </div>
+          </div>
+        </div>
+        <div class="bg-white rounded-lg p-6 shadow hover:shadow-lg transition">
+          <p class="text-gray-700 italic mb-4">"A wonderful way to pamper yourself without going out. Clean, safe, and convenient."</p>
+          <div class="flex items-center">
+            <img src="https://randomuser.me/api/portraits/women/50.jpg" alt="Client 3" class="w-12 h-12 rounded-full mr-4" />
+            <div>
+              <p class="font-semibold">Priya Mehta</p>
+              <p class="text-yellow-500">★★★★★</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Booking CTA -->
+  <section id="booking" class="bg-pink-600 py-16 text-white text-center">
+    <h2 class="text-3xl font-bold mb-6">Ready for Your Salon Experience at Home?</h2>
+    <p class="mb-8 max-w-xl mx-auto">Book your appointment now and enjoy exclusive home salon services with professional beauticians.</p>
+    <a href="/booking.html" class="inline-block bg-white text-pink-600 font-semibold px-8 py-3 rounded-md hover:bg-gray-100 transition">Book Now</a>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contact" class="bg-pink-900 text-pink-100 py-10">
+    <div class="container mx-auto px-6 flex flex-col md:flex-row justify-between">
+      <div class="mb-6 md:mb-0">
+        <h3 class="font-bold text-lg mb-2">Glow & Feel Beauty</h3>
+        <p>Salon services delivered to your doorstep with safety and care.</p>
+      </div>
+      <div class="space-y-2">
+        <p><strong>Email:</strong> support@salon.com</p>
+        <p><strong>Phone:</strong> +91 98765 43210</p>
+        <div class="flex space-x-4 mt-4">
